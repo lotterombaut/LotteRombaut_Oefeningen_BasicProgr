@@ -17,3 +17,10 @@ def inlezen_scores(bestand):
 
 def zoek_student(persoon):
     for naam in studenten:
+        if (naam.lower().find(persoon.lower())>=0):
+            print("Naam gevonden: {0}".format(naam))
+            print("Scores: {0}".format(studenten[naam]))
+            print("gemiddelde punten: {0}".format)
+
+
+inlezen_scores()
